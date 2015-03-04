@@ -1,0 +1,6 @@
+[submodule "ChicagoBoss"]
+	path = ChicagoBoss
+	url = https://github.com/ChicagoBoss/ChicagoBoss.git
+[submodule "apalachin"]
+	path = apalachin
+	url = git@github.com:PicOrb/apalachin.git
