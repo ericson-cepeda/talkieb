@@ -1,6 +1,3 @@
-[submodule "ChicagoBoss"]
-	path = ChicagoBoss
-	url = https://github.com/ChicagoBoss/ChicagoBoss.git
-[submodule "apalachin"]
-	path = apalachin
-	url = git@github.com:PicOrb/apalachin.git
+[submodule "chat"]
+	path = chat
+	url = git@github.com:ericson-cepeda/cowboy-websocket-template.git

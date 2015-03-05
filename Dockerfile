@@ -1,13 +1,8 @@
 FROM correl/erlang
 
-# Install ChicagoBoss
-WORKDIR /ChicagoBoss
-ADD ./ChicagoBoss /ChicagoBoss
-RUN make
 WORKDIR /app
-ADD ./apalachin /app
-ADD boss.config /app/
+ADD ./chat /app
 
-EXPOSE 		8001
+EXPOSE 		6667
 
-CMD 		["sh", "init-dev.sh"]
+CMD 		["sh", "start.sh"]
