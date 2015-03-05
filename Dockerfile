@@ -6,4 +6,4 @@ RUN make all
 
 EXPOSE 		6667
 
-CMD 		["sh", "start.sh"]
+CMD 		["sh", "./start.sh"]
